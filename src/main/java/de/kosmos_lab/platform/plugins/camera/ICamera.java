@@ -14,5 +14,6 @@ public interface ICamera extends ExtensionPoint {
     void startRecording();
     void stopRecording();
     String getName();
+    boolean isRecording();
     
 }
