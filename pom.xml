@@ -171,6 +171,11 @@
             <artifactId>json</artifactId>
             <version>20160810</version>
         </dependency>
+        <dependency>
+            <groupId>de.kosmos-lab</groupId>
+            <version>0.1.5</version>
+            <artifactId>kosmos-utils</artifactId>
+        </dependency>
     </dependencies>
     <build>
 
