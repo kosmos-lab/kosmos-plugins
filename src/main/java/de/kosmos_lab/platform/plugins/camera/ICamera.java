@@ -11,6 +11,7 @@ public interface ICamera extends ExtensionPoint {
     
     File getRecording(Calendar calStart, Calendar calEnd, long delta) throws VideoNotAvailableException;
     byte[] getSnapshot();
+    byte[] getSnapshot(int width,int height);
     FFMPPEGRecording startRecording(File f);
     void stopRecording();
     String getName();
